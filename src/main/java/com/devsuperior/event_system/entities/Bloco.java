@@ -30,6 +30,10 @@ public class Bloco {
 	@JoinColumn(name="atividade_id")
 	private Atividade atividade;
 
+	public Bloco() {
+		
+	}
+	
 	public Bloco(Integer id, Instant inicio, Instant fim, Atividade atividade) {
 		this.id = id;
 		this.inicio = inicio;
