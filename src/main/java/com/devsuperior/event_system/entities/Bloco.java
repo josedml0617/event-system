@@ -72,7 +72,7 @@ public class Bloco {
 	public void setAtividade(Atividade atividade) {
 		this.atividade = atividade;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);

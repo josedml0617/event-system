@@ -51,6 +51,10 @@ public class Categoria {
 		this.descricao = descricao;
 	}
 	
+	public List<Atividade> getAtividades() {
+		return atividades;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);

@@ -92,6 +92,14 @@ public class Atividade {
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
 	}
+	
+	public Set<Participante> getParticipantes(){
+		return participantes;
+	}
+
+	public List<Bloco> getBlocos() {
+		return blocos;
+	}
 
 	@Override
 	public int hashCode() {

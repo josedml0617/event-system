@@ -65,11 +65,16 @@ public class Participante {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public Set<Atividade> getAtividades() {
+		return atividades;
+	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
 	}
+	
 
 	@Override
 	public boolean equals(Object obj) {
